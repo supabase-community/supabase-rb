@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 module Supabase
   class Client
     DEFAULT_SCHEMA = 'public'
 
-    attr_accessor :supabase_url, :supabase_key, :rest_url, :schema
+    attr_accessor :supabase_url, :supabase_key, :schema
 
     def initialize(supabase_url: '', supabase_key: '', schema: DEFAULT_SCHEMA)
       self.supabase_url = supabase_url

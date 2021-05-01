@@ -1,8 +1,12 @@
 # Supabase
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/supabase`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![Build Status](https://api.travis-ci.org/marcelobarreto/supabase-rb.svg?branch=master)](https://travis-ci.org/marcelobarreto/supabase-rb)
+[![Code Climate](https://codeclimate.com/github/marcelobarreto/supabase-rb.svg)](https://codeclimate.com/github/marcelobareto/supabase-rb)
+[![Code Climate](https://codeclimate.com/github/marcelobarreto/supabase-rb/coverage.svg)](https://codeclimate.com/github/marcelobarreto/supabase-rb)
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
+[![RubyGems](http://img.shields.io/gem/dt/supabase-rb.svg?style=flat)](http://rubygems.org/gems/supabase-rb)
 
-TODO: Delete this and the text above, and describe your gem
+Ruby client for [Supabase](https://supabase.io/)
 
 ## Installation
 
