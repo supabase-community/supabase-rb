@@ -11,3 +11,5 @@
 .rspec_status
 
 bin/private_console
+
+*.gem
