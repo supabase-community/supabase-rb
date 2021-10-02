@@ -19,7 +19,8 @@ module Supabase
     def auth_headers
       {
         apikey: supabase_key,
-        Authorization: "Bearer #{supabase_key}"
+        Authorization: "Bearer #{supabase_key}",
+        "X-Client-Info": "supabase-rb/#{Supabase::VERSION}",
       }
     end
 
